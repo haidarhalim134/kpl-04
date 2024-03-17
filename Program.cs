@@ -5,6 +5,8 @@
         static void Main(string[] args)
         {
             HaloGeneric.SapaUser("Haidar");
+            DataGeneric<string> dg = new DataGeneric<string>("1302220152");
+            dg.PrintData();
         }
     }
 }
